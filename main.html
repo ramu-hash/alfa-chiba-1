@@ -33,10 +33,10 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>ビデオを使うため！</h2>
             <p class="text-center">まずは、ビデオが使えるように、回線のパスワードを入力しなければならない。<br>
               下の画像の謎を解き、回線のパスワードをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+            <p class="text-center">わからない時はヒントを見て謎を解こう！！</p>
   
             <div class="container">
               <figure class="image__container">
@@ -84,7 +84,7 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
+              <div class="clear-message__title">STAGE：１  成功！</div>
               <div class="clear-message__content">ビデオが使えるようになった！<br>
                 キャサリン達をを脱出させるため<br>
                 残り3問の謎を解こう！</div>
@@ -106,8 +106,9 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>体育館内を移動するたび、化物も外から自分たちについてくるのが音でわかる。</h2>
-              <p class="text-center">原因を模索しているとマイケルが所有しているジェムに化物が寄っていることに気が付く！<br>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>マイケルのジェム</h2>
+              <p class="text-center">体育館内を移動するたび、化物も外から自分たちについてくるのが音でわかる。<br>
+                原因を模索しているとマイケルが所有しているジェムに化物が寄っていることに気が付く！「落ち着けキャサリン。」と落ち着きのないマイケルがキャサリンに言葉をかける。<br>
                 どうしてジェムに化物が寄ってくるのか原因を探るため、今回の謎を解いてく。<br>
                 これを解くことで、きっと次のステップに繋がるはずだ！</p>
             </div>
@@ -170,8 +171,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">ジェムが追いかけられる原因がわかった。やれやれ、全く何やってるんだマイケル。<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">ジェムが追いかけられる原因がわかった。「一体私とマイケルがどんな悪さをしたっていうのよ！」と不安になるキャサリン。「そう感情的になるなって、俺がついてる。」と宥めるマイケル。<br>
+                では、残りの2つの謎解きも頑張ろう！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
